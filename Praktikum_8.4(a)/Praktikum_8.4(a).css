@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+
+}
+
+header, article, aside, nav, footer {
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+}
+
+nav {
+    width: 220px;
+    background-color: khaki;
+}
+
+.content {
+    display: flex;
+    height: 485px;
+}
+
+.box {
+    width: 100%;
+}
+
+header, footer{
+    background-color: yellowgreen;
+}
+
+article {
+    width: 70%;
+}
+
+aside {
+    background-color: khaki;
+    width: 30%;
+}

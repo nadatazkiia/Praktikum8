@@ -1,0 +1,51 @@
+body {
+    background-color: #F0F0F0;
+}
+
+header, article, aside, footer {
+    text-align: center;
+    color: white;
+    align-items: center;
+}
+
+#container {
+    justify-content: space-between;
+    margin: 1em;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+header, footer {
+    background-color: #404040;
+}
+
+aside {
+    background-color: dimgray;
+    width: 28%;
+    height: 80vh;
+}
+
+article {
+    background-color: lightslategray;
+    width: 69%;
+    height: 80vh;
+}
+
+.box1 {
+    display: block;
+}
+
+.box2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+img {
+    width: 180px;
+}
